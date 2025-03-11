@@ -1,0 +1,25 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lista de Tareas</h1>
+
+  <!-- Mostrar la lista de tareas -->
+  <ul id="task-list"></ul>
+
+  <h2>Agregar tarea</h2>
+  <!-- Formulario para agregar nueva tarea -->
+  <form id="task-form">
+    <input type="text" id="task-name" placeholder="Nombre de la tarea" required />
+    <button type="submit">Agregar tarea</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>

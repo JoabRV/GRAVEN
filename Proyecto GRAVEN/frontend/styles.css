@@ -1,0 +1,95 @@
+/* frontend/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+
+  /* Asegurar que el texto de la tarea y los botones no se sobrepongan */
+.task-text {
+    flex-grow: 1; /* Permite que el texto ocupe el máximo espacio disponible */
+}
+  
+  /* Contenedor para los botones */
+  .task-buttons {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+    margin-left: auto; /* Los botones se alinean a la derecha */
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
